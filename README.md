@@ -12,10 +12,11 @@ Providing an account-wide GitHub Pages dashboard for active repositories that co
 
 The workflow at `.github/workflows/update-dashboard.yml`:
 
-1. Runs every 30 minutes and on manual dispatch.
-2. Calls `scripts/generate-dashboard-data.sh`.
-3. Commits refreshed dashboard data when it changes.
-4. Deploys the `docs/` folder to GitHub Pages.
+1. Runs every hour and on manual dispatch.
+2. Checks the last 10 completed runs; if all 10 failed the workflow disables itself to prevent wasted Actions minutes. Re-enable it manually via `gh workflow enable update-dashboard.yml` after fixing the underlying issue.
+3. Calls `scripts/generate-dashboard-data.sh`.
+4. Commits refreshed dashboard data when it changes.
+5. Deploys the `docs/` folder to GitHub Pages.
 
 ## Authentication
 
