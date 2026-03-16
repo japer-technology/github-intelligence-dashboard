@@ -29,7 +29,7 @@ Only **public repositories** are written into the published dashboard data so th
 
 ## Local refresh
 
-From `/home/runner/work/github-intelligence-dashboard/github-intelligence-dashboard`:
+From the repository root:
 
 ```bash
 OWNER=japer-technology OUTPUT_PATH=docs/data/status.json bash scripts/generate-dashboard-data.sh
