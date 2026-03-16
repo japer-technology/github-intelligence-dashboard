@@ -1,0 +1,65 @@
+name: Update intelligence dashboard
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: intelligence-dashboard
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Generate dashboard data
+        env:
+          OWNER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.INTELLIGENCE_DASHBOARD_TOKEN || secrets.INTELLIGENCE_EMERGENCY_TOKEN || secrets.GITHUB_TOKEN }}
+          OUTPUT_PATH: docs/data/status.json
+        run: |
+          chmod +x scripts/generate-dashboard-data.sh
+          bash scripts/generate-dashboard-data.sh
+
+      - name: Commit refreshed dashboard data
+        run: |
+          if git diff --quiet -- docs/data/status.json; then
+            echo "No dashboard data changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/status.json
+          git commit -m "Update intelligence dashboard data"
+          git push
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

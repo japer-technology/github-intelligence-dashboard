@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GitHub Intelligence Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">GitHub Pages status website</p>
+        <h1>GitHub Intelligence Dashboard</h1>
+        <p class="lede">
+          Live inventory of public repositories that currently contain
+          <code>.github-*-intelligence</code> or <code>.github-*-intelligences</code> folders.
+        </p>
+      </header>
+
+      <section class="summary" aria-labelledby="summary-title">
+        <div>
+          <p class="label">Owner</p>
+          <p class="value" id="owner">Loading…</p>
+        </div>
+        <div>
+          <p class="label" id="summary-title">Active intelligence repos</p>
+          <p class="value" id="repo-count">—</p>
+        </div>
+        <div>
+          <p class="label">Public repos scanned</p>
+          <p class="value" id="scanned-count">—</p>
+        </div>
+        <div>
+          <p class="label">Generated</p>
+          <p class="value" id="generated-at">—</p>
+        </div>
+      </section>
+
+      <section class="status-panel" aria-live="polite">
+        <p class="status-message" id="status-message">Loading dashboard data…</p>
+      </section>
+
+      <section aria-labelledby="repos-title">
+        <div class="section-heading">
+          <h2 id="repos-title">Active repositories</h2>
+          <p id="scope-text"></p>
+        </div>
+        <div class="repo-grid" id="repo-grid"></div>
+      </section>
+    </main>
+
+    <template id="repo-card-template">
+      <article class="repo-card">
+        <div class="repo-card__header">
+          <h3><a class="repo-link" rel="noreferrer noopener" target="_blank"></a></h3>
+          <span class="repo-badge">Active</span>
+        </div>
+        <p class="repo-description"></p>
+        <dl class="repo-meta">
+          <div>
+            <dt>Folders</dt>
+            <dd class="repo-folders"></dd>
+          </div>
+          <div>
+            <dt>Workflow files</dt>
+            <dd class="repo-workflows"></dd>
+          </div>
+          <div>
+            <dt>Last push</dt>
+            <dd class="repo-pushed"></dd>
+          </div>
+        </dl>
+      </article>
+    </template>
+
+    <script src="./main.js" defer></script>
+  </body>
+</html>
