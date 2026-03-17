@@ -190,6 +190,7 @@ const renderTypeBreakdown = (repos) => {
 
 const renderRepoCard = (repo) => {
   const fragment = repoCardTemplate.content.cloneNode(true);
+  const card = fragment.querySelector('.repo-card');
   const link = fragment.querySelector('.repo-link');
   const description = fragment.querySelector('.repo-description');
   const folders = fragment.querySelector('.repo-folders');
@@ -215,7 +216,6 @@ const renderRepoCard = (repo) => {
   if (repo.name === 'github-intelligence-emergency') {
     badge.textContent = '🆘 Emergency';
     badge.classList.add('repo-badge--emergency');
-    const card = fragment.querySelector('.repo-card');
     card.classList.add('repo-card--emergency');
   }
 
@@ -244,7 +244,6 @@ const renderRepoCard = (repo) => {
     }
   }
 
-  const card = fragment.querySelector('.repo-card');
   card.dataset.type = extractIntelligenceType(repo.intelligence_folders);
   card.dataset.name = (repo.full_name || '').toLowerCase();
 
@@ -304,8 +303,11 @@ const renderDashboard = (data) => {
   setText('owner', data.owner);
   setText('repo-count', String(data.active_intelligence_repos));
   setText('scanned-count', String(data.total_public_repos_scanned));
-  setText('generated-at', relativeTime(data.generated_at));
-  document.getElementById('generated-at').title = formatDate(data.generated_at);
+  const generatedAtEl = document.getElementById('generated-at');
+  if (generatedAtEl) {
+    generatedAtEl.textContent = relativeTime(data.generated_at);
+    generatedAtEl.title = formatDate(data.generated_at);
+  }
   setText('scope-text', data.published_scope);
 
   if (data.emergency) {
