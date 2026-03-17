@@ -8,6 +8,8 @@
   --accent: #38bdf8;
   --accent-soft: rgba(56, 189, 248, 0.12);
   --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
 }
 
 * {
@@ -72,7 +74,9 @@ h1 {
 
 .summary,
 .status-panel,
-.repo-card {
+.repo-card,
+.emergency-panel,
+.scan-log-table-wrapper {
   background: var(--panel);
   border: 1px solid var(--panel-border);
   border-radius: 1rem;
@@ -122,6 +126,11 @@ h1 {
   padding: 1.25rem;
 }
 
+.repo-card--emergency {
+  border-color: rgba(239, 68, 68, 0.45);
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.08), var(--panel) 60%);
+}
+
 .repo-card__header {
   display: flex;
   align-items: flex-start;
@@ -146,6 +155,12 @@ h1 {
   color: #86efac;
   font-size: 0.82rem;
   font-weight: 600;
+  white-space: nowrap;
+}
+
+.repo-badge--emergency {
+  background: rgba(239, 68, 68, 0.18);
+  color: #fca5a5;
 }
 
 .repo-description {
@@ -171,6 +186,165 @@ h1 {
   margin: 0.35rem 0 0;
 }
 
+/* Emergency section */
+.emergency-section {
+  margin-bottom: 2rem;
+}
+
+.emergency-repo-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.emergency-repo-link:hover,
+.emergency-repo-link:focus-visible {
+  text-decoration: underline;
+}
+
+.emergency-panel {
+  padding: 1.5rem;
+  border-color: rgba(239, 68, 68, 0.35);
+}
+
+.emergency-panel__header {
+  margin-bottom: 1.25rem;
+}
+
+.emergency-description {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.emergency-version {
+  margin-top: 0.35rem;
+  font-size: 0.88rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.emergency-indicators {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.indicator {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.75rem;
+  border-radius: 0.6rem;
+  background: rgba(148, 163, 184, 0.06);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.indicator__icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.indicator__label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.indicator__value {
+  margin-top: 0.2rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.indicator--safe .indicator__value {
+  color: var(--success);
+}
+
+.indicator--danger .indicator__value {
+  color: var(--danger);
+}
+
+.emergency-workflows-details {
+  margin-top: 1rem;
+}
+
+.emergency-workflows-details summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.emergency-workflow-list {
+  margin: 0.5rem 0 0;
+  padding-left: 1.5rem;
+  list-style: disc;
+  color: var(--text);
+  font-size: 0.88rem;
+  line-height: 1.8;
+}
+
+/* Scan log section */
+.scan-log-section {
+  margin-top: 2rem;
+}
+
+.scan-log-table-wrapper {
+  overflow-x: auto;
+  padding: 0.25rem;
+}
+
+.scan-log-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.scan-log-table th,
+.scan-log-table td {
+  padding: 0.6rem 1rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.scan-log-table th {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.scan-log-table td {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.scan-log-table tbody tr:hover {
+  background: rgba(148, 163, 184, 0.06);
+}
+
+.log-badge--safe {
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(34, 197, 94, 0.16);
+  color: #86efac;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.log-badge--danger {
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(239, 68, 68, 0.16);
+  color: #fca5a5;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.muted {
+  color: var(--muted);
+}
+
 @media (max-width: 640px) {
   .page {
     width: min(100% - 1rem, 1120px);
@@ -179,5 +353,9 @@ h1 {
 
   .repo-card__header {
     flex-direction: column;
+  }
+
+  .emergency-indicators {
+    grid-template-columns: 1fr;
   }
 }

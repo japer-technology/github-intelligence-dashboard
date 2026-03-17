@@ -14,6 +14,8 @@
         <p class="lede">
           Live inventory of public repositories that currently contain
           <code>.github-*-intelligence</code> or <code>.github-*-intelligences</code> folders.
+          Automatically scans on a regular schedule and gives special attention to the
+          <strong>emergency control</strong> system.
         </p>
       </header>
 
@@ -40,12 +42,96 @@
         <p class="status-message" id="status-message">Loading dashboard data…</p>
       </section>
 
+      <section class="emergency-section" id="emergency-section" aria-labelledby="emergency-title" hidden>
+        <div class="section-heading">
+          <h2 id="emergency-title">🆘 Emergency Control</h2>
+          <a class="emergency-repo-link" id="emergency-repo-link" rel="noreferrer noopener" target="_blank">View repository →</a>
+        </div>
+        <div class="emergency-panel">
+          <div class="emergency-panel__header">
+            <div>
+              <p class="emergency-description" id="emergency-description"></p>
+              <p class="emergency-version" id="emergency-version"></p>
+            </div>
+          </div>
+          <div class="emergency-indicators">
+            <div class="indicator" id="indicator-fail-safe">
+              <span class="indicator__icon">🛡️</span>
+              <div>
+                <p class="indicator__label">Fail-safe</p>
+                <p class="indicator__value" id="fail-safe-status">—</p>
+              </div>
+            </div>
+            <div class="indicator" id="indicator-disable">
+              <span class="indicator__icon">🔒</span>
+              <div>
+                <p class="indicator__label">Disable trigger</p>
+                <p class="indicator__value" id="disable-trigger-status">—</p>
+              </div>
+            </div>
+            <div class="indicator" id="indicator-kill">
+              <span class="indicator__icon">☠️</span>
+              <div>
+                <p class="indicator__label">Kill trigger</p>
+                <p class="indicator__value" id="kill-trigger-status">—</p>
+              </div>
+            </div>
+            <div class="indicator">
+              <span class="indicator__icon">📋</span>
+              <div>
+                <p class="indicator__label">Dry-run logs</p>
+                <p class="indicator__value" id="dry-run-log-count">—</p>
+              </div>
+            </div>
+            <div class="indicator">
+              <span class="indicator__icon">⚙️</span>
+              <div>
+                <p class="indicator__label">Workflows</p>
+                <p class="indicator__value" id="emergency-workflow-count">—</p>
+              </div>
+            </div>
+            <div class="indicator">
+              <span class="indicator__icon">🕐</span>
+              <div>
+                <p class="indicator__label">Last push</p>
+                <p class="indicator__value" id="emergency-pushed-at">—</p>
+              </div>
+            </div>
+          </div>
+          <details class="emergency-workflows-details">
+            <summary>Workflow files</summary>
+            <ul class="emergency-workflow-list" id="emergency-workflow-list"></ul>
+          </details>
+        </div>
+      </section>
+
       <section aria-labelledby="repos-title">
         <div class="section-heading">
           <h2 id="repos-title">Active repositories</h2>
           <p id="scope-text"></p>
         </div>
         <div class="repo-grid" id="repo-grid"></div>
+      </section>
+
+      <section class="scan-log-section" id="scan-log-section" aria-labelledby="scan-log-title" hidden>
+        <div class="section-heading">
+          <h2 id="scan-log-title">📋 Scan log</h2>
+          <p class="muted">Last 50 scans</p>
+        </div>
+        <div class="scan-log-table-wrapper">
+          <table class="scan-log-table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>Repos scanned</th>
+                <th>Intel repos</th>
+                <th>Emergency</th>
+                <th>Fail-safe</th>
+              </tr>
+            </thead>
+            <tbody id="scan-log-body"></tbody>
+          </table>
+        </div>
       </section>
     </main>
 
