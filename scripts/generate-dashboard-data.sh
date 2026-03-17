@@ -88,10 +88,24 @@ main() {
     local workflow_files_json
     workflow_files_json=$(api_get "${API_ROOT}/repos/${OWNER}/${repo_name}/contents/.github/workflows" 2>/dev/null | jq -c '[.[]? | select(.type == "file" and (.name | test("\\.(yml|yaml)$"))) | .name]' 2>/dev/null || printf '[]')
 
+    local last_run_json='null'
+    local runs_response
+    runs_response=$(api_get "${API_ROOT}/repos/${OWNER}/${repo_name}/actions/runs?per_page=1&status=completed" 2>/dev/null || printf '')
+    if [ -n "${runs_response}" ] && printf '%s' "${runs_response}" | jq -e '.workflow_runs[0]' >/dev/null 2>&1; then
+      last_run_json=$(printf '%s' "${runs_response}" | jq -c '{
+        status: .workflow_runs[0].status,
+        conclusion: .workflow_runs[0].conclusion,
+        run_started_at: .workflow_runs[0].run_started_at,
+        html_url: .workflow_runs[0].html_url,
+        workflow_name: .workflow_runs[0].name
+      }')
+    fi
+
     jq -n \
       --argjson repo "${repo_json}" \
       --argjson folders "${folders_json}" \
       --argjson workflowFiles "${workflow_files_json}" \
+      --argjson lastRun "${last_run_json}" \
       '{
         name: $repo.name,
         full_name: $repo.full_name,
@@ -101,7 +115,8 @@ main() {
         pushed_at: $repo.pushed_at,
         intelligence_folders: $folders,
         workflow_count: ($workflowFiles | length),
-        workflow_files: $workflowFiles
+        workflow_files: $workflowFiles,
+        last_workflow_run: $lastRun
       }' >> "${intelligence_repos_file}"
   done < "${repo_pages_file}"
 

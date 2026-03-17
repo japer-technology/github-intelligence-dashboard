@@ -40,6 +40,14 @@
 
       <section class="status-panel" aria-live="polite">
         <p class="status-message" id="status-message">Loading dashboard data…</p>
+        <p class="refresh-timer" id="refresh-timer"></p>
+      </section>
+
+      <section class="type-breakdown" id="type-breakdown" aria-labelledby="type-breakdown-title" hidden>
+        <div class="section-heading">
+          <h2 id="type-breakdown-title">🧩 Intelligence types</h2>
+        </div>
+        <div class="type-grid" id="type-grid"></div>
       </section>
 
       <section class="emergency-section" id="emergency-section" aria-labelledby="emergency-title" hidden>
@@ -110,6 +118,12 @@
           <h2 id="repos-title">Active repositories</h2>
           <p id="scope-text"></p>
         </div>
+        <div class="filter-bar" id="filter-bar" hidden>
+          <input type="text" class="filter-search" id="filter-search" placeholder="Search repos…" aria-label="Search repositories">
+          <select class="filter-type" id="filter-type" aria-label="Filter by intelligence type">
+            <option value="">All types</option>
+          </select>
+        </div>
         <div class="repo-grid" id="repo-grid"></div>
       </section>
 
@@ -139,7 +153,11 @@
       <article class="repo-card">
         <div class="repo-card__header">
           <h3><a class="repo-link" rel="noreferrer noopener" target="_blank"></a></h3>
-          <span class="repo-badge">Active</span>
+          <div class="repo-badges">
+            <span class="repo-badge">Active</span>
+            <span class="repo-freshness" hidden></span>
+            <span class="repo-run-badge" hidden></span>
+          </div>
         </div>
         <p class="repo-description"></p>
         <dl class="repo-meta">
@@ -158,6 +176,14 @@
         </dl>
       </article>
     </template>
+
+    <footer class="dashboard-footer">
+      <p>
+        <a href="https://github.com/japer-technology/github-intelligence-dashboard" rel="noreferrer noopener" target="_blank">Source on GitHub</a>
+        · Scans public repos hourly
+        · Powered by <a href="https://pages.github.com" rel="noreferrer noopener" target="_blank">GitHub Pages</a>
+      </p>
+    </footer>
 
     <script src="./main.js" defer></script>
   </body>

@@ -14,10 +14,13 @@ Providing an account-wide GitHub Pages dashboard for active repositories that co
 
 | Section | Description |
 |---|---|
-| **Summary bar** | Owner, active intelligence repo count, total public repos scanned, last generation timestamp. |
+| **Summary bar** | Owner, active intelligence repo count, total public repos scanned, last generation timestamp (with relative time). |
+| **🧩 Intelligence types** | Tile grid showing how many repos use each intelligence framework type (minimum, maximum, agenticana, etc.). |
 | **🆘 Emergency Control** | Dedicated panel showing the emergency system's fail-safe state, disable/kill trigger presence, version, dry-run log count, and workflow file inventory. |
-| **Active repositories** | Grid of repo cards with intelligence folder names, workflow files, and last push date. The emergency repo is highlighted with a special badge and border. |
+| **Search & filter** | Text search and intelligence-type dropdown to quickly narrow down the repo grid. |
+| **Active repositories** | Grid of repo cards with intelligence folder names, workflow files, activity freshness badge, latest workflow run status, and last push date. The emergency repo is highlighted with a special badge and border. |
 | **📋 Scan log** | Table of the last 50 scan runs with timestamps, repo counts, emergency status, and fail-safe state history. |
+| **Auto-refresh** | Dashboard re-fetches data every 5 minutes with a visible countdown timer. |
 
 ## Workflow
 
