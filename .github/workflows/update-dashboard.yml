@@ -55,20 +55,21 @@ jobs:
           OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.INTELLIGENCE_DASHBOARD_TOKEN || secrets.INTELLIGENCE_EMERGENCY_TOKEN || secrets.GITHUB_TOKEN }}
           OUTPUT_PATH: docs/data/status.json
+          SCAN_LOG_PATH: docs/data/scan-log.json
         run: |
           chmod +x scripts/generate-dashboard-data.sh
           bash scripts/generate-dashboard-data.sh
 
       - name: Commit refreshed dashboard data
         run: |
-          if git diff --quiet -- docs/data/status.json; then
+          if git diff --quiet -- docs/data/; then
             echo "No dashboard data changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/status.json
+          git add docs/data/status.json docs/data/scan-log.json
           git commit -m "Update intelligence dashboard data"
           git push
 
