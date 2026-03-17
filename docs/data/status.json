@@ -1,8 +1,283 @@
 {
   "owner": "japer-technology",
-  "generated_at": "1970-01-01T00:00:00Z",
+  "generated_at": "2026-03-17T06:19:38Z",
   "published_scope": "public repositories only",
-  "total_public_repos_scanned": 0,
-  "active_intelligence_repos": 0,
-  "repos": []
+  "total_public_repos_scanned": 54,
+  "active_intelligence_repos": 17,
+  "emergency": {
+    "found": true,
+    "html_url": "https://github.com/japer-technology/github-intelligence-emergency",
+    "description": "🧠GitHub Intelligence 🆘 Emergency",
+    "version": "1.0.0",
+    "fail_safe_active": true,
+    "disable_trigger_present": true,
+    "kill_trigger_present": true,
+    "dry_run_log_count": 1,
+    "workflow_files": [
+      "github-intelligence-emergency-agent.yml",
+      "github-intelligence-emergency-dry-run.yml",
+      "github-intelligence-emergency-trigger-disable.yml",
+      "github-intelligence-emergency-trigger-kill.yml"
+    ],
+    "pushed_at": "2026-03-17T06:03:18Z",
+    "updated_at": "2026-03-17T06:03:21Z"
+  },
+  "repos": [
+    {
+      "name": "an-overview",
+      "full_name": "japer-technology/an-overview",
+      "html_url": "https://github.com/japer-technology/an-overview",
+      "description": "🛠️JAPER Technology's Public Repositories",
+      "updated_at": "2026-03-17T02:42:31Z",
+      "pushed_at": "2026-03-17T02:42:28Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "developer-japer-io",
+      "full_name": "japer-technology/developer-japer-io",
+      "html_url": "https://github.com/japer-technology/developer-japer-io",
+      "description": "🛠️The JAPER API provides developers with advanced encryption, decryption, validation, and secure resource management via RESTful endpoints.",
+      "updated_at": "2026-03-17T05:22:53Z",
+      "pushed_at": "2026-03-15T12:26:06Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "github-agenticana-intelligence",
+      "full_name": "japer-technology/github-agenticana-intelligence",
+      "html_url": "https://github.com/japer-technology/github-agenticana-intelligence",
+      "description": "🧠Agenticana using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
+      "updated_at": "2026-03-17T05:05:18Z",
+      "pushed_at": "2026-03-15T14:54:30Z",
+      "intelligence_folders": [
+        ".github-agenticana-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-agenticana-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "github-maximum-intelligence",
+      "full_name": "japer-technology/github-maximum-intelligence",
+      "html_url": "https://github.com/japer-technology/github-maximum-intelligence",
+      "description": "🧠Pi Mono with Enhancements using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
+      "updated_at": "2026-03-17T05:17:07Z",
+      "pushed_at": "2026-03-17T05:17:02Z",
+      "intelligence_folders": [
+        ".github-maximum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-maximum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "github-minimum-intelligence",
+      "full_name": "japer-technology/github-minimum-intelligence",
+      "html_url": "https://github.com/japer-technology/github-minimum-intelligence",
+      "description": "🧠Pi Mono using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
+      "updated_at": "2026-03-17T02:22:40Z",
+      "pushed_at": "2026-03-17T02:22:36Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "github-moltis-intelligence",
+      "full_name": "japer-technology/github-moltis-intelligence",
+      "html_url": "https://github.com/japer-technology/github-moltis-intelligence",
+      "description": "🧠Moltis using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
+      "updated_at": "2026-03-17T05:04:32Z",
+      "pushed_at": "2026-03-17T01:14:10Z",
+      "intelligence_folders": [
+        ".github-moltis-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-moltis-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "github-nanoclaw-intelligence",
+      "full_name": "japer-technology/github-nanoclaw-intelligence",
+      "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence",
+      "description": "🧠NanoClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
+      "updated_at": "2026-03-17T04:47:22Z",
+      "pushed_at": "2026-03-17T04:47:17Z",
+      "intelligence_folders": [
+        ".github-nanoclaw-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-nanoclaw-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "github-openclaw-intelligence",
+      "full_name": "japer-technology/github-openclaw-intelligence",
+      "html_url": "https://github.com/japer-technology/github-openclaw-intelligence",
+      "description": "🧠OpenClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
+      "updated_at": "2026-03-17T05:04:54Z",
+      "pushed_at": "2026-03-15T14:54:18Z",
+      "intelligence_folders": [
+        ".github-openclaw-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-openclaw-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "github-zeroclaw-intelligence",
+      "full_name": "japer-technology/github-zeroclaw-intelligence",
+      "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence",
+      "description": "🧠ZeroClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
+      "updated_at": "2026-03-17T05:05:08Z",
+      "pushed_at": "2026-03-17T01:15:33Z",
+      "intelligence_folders": [
+        ".github-zeroclaw-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-zeroclaw-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "githubification",
+      "full_name": "japer-technology/githubification",
+      "html_url": "https://github.com/japer-technology/githubification",
+      "description": "⚠️UNDER DEVELOPMENT",
+      "updated_at": "2026-03-15T13:01:31Z",
+      "pushed_at": "2026-03-04T01:45:52Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "gmi-anthropic-opus-4-6",
+      "full_name": "japer-technology/gmi-anthropic-opus-4-6",
+      "html_url": "https://github.com/japer-technology/gmi-anthropic-opus-4-6",
+      "description": "🚀An AI Agent called Cantor",
+      "updated_at": "2026-03-15T12:47:52Z",
+      "pushed_at": "2026-03-13T23:28:10Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "gmi-google-gemini-2-5-pro",
+      "full_name": "japer-technology/gmi-google-gemini-2-5-pro",
+      "html_url": "https://github.com/japer-technology/gmi-google-gemini-2-5-pro",
+      "description": "🚀An AI Agent called Cayley",
+      "updated_at": "2026-03-16T00:00:44Z",
+      "pushed_at": "2026-03-16T00:00:38Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "gmi-openai-gpt-5-4",
+      "full_name": "japer-technology/gmi-openai-gpt-5-4",
+      "html_url": "https://github.com/japer-technology/gmi-openai-gpt-5-4",
+      "description": "🚀An AI Agent called Banach",
+      "updated_at": "2026-03-15T12:48:01Z",
+      "pushed_at": "2026-03-13T23:28:31Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "gmi-openrouter-minimax-m2-5",
+      "full_name": "japer-technology/gmi-openrouter-minimax-m2-5",
+      "html_url": "https://github.com/japer-technology/gmi-openrouter-minimax-m2-5",
+      "description": "🚀An AI Agent called Abel",
+      "updated_at": "2026-03-15T12:48:13Z",
+      "pushed_at": "2026-03-13T01:24:25Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "gmi-openrouter-stepfun-step-3-5-flash-free",
+      "full_name": "japer-technology/gmi-openrouter-stepfun-step-3-5-flash-free",
+      "html_url": "https://github.com/japer-technology/gmi-openrouter-stepfun-step-3-5-flash-free",
+      "description": "🚀An AI Agent called Sylow",
+      "updated_at": "2026-03-16T07:24:59Z",
+      "pushed_at": "2026-03-16T07:24:56Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "gmi-xai-grok-4-2-reasoning",
+      "full_name": "japer-technology/gmi-xai-grok-4-2-reasoning",
+      "html_url": "https://github.com/japer-technology/gmi-xai-grok-4-2-reasoning",
+      "description": "🚀An AI Agent called Boral",
+      "updated_at": "2026-03-15T12:48:05Z",
+      "pushed_at": "2026-03-13T23:28:50Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ]
+    },
+    {
+      "name": "japer-technology.github.io",
+      "full_name": "japer-technology/japer-technology.github.io",
+      "html_url": "https://github.com/japer-technology/japer-technology.github.io",
+      "description": "🛠️Japer Technology GitHub Website",
+      "updated_at": "2026-03-17T00:24:36Z",
+      "pushed_at": "2026-03-17T00:24:32Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 2,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml",
+        "update-docs.yml"
+      ]
+    }
+  ]
 }
