@@ -153,7 +153,7 @@ const renderScanLog = (entries) => {
     intel.textContent = String(entry.active_intelligence_repos);
 
     const emerg = document.createElement('td');
-    emerg.textContent = entry.emergency_found ? `✅ v${entry.emergency_version || '?'}` : '—';
+    emerg.textContent = entry.emergency_found ? `✅ v${entry.emergency_version || 'unknown'}` : '—';
 
     const safe = document.createElement('td');
     if (entry.emergency_found) {

@@ -222,8 +222,8 @@ main() {
   local active_intelligence_count
   active_intelligence_count=$(printf '%s' "${repos_json}" | jq 'length')
 
-  local repos_changed
-  repos_changed=$(printf '%s' "${repos_json}" | jq -r '[.[].name] | sort | join(",")' | md5sum | cut -d' ' -f1)
+  local repos_fingerprint
+  repos_fingerprint=$(printf '%s' "${repos_json}" | jq -r '[.[].name] | sort | join(",")' | md5sum | cut -d' ' -f1)
 
   local emergency_found emergency_version_log emergency_fail_safe_log
   emergency_found=$(printf '%s' "${emergency_json}" | jq -r '.found')
@@ -238,7 +238,7 @@ main() {
     --argjson emergency_found "${emergency_found}" \
     --arg emergency_version "${emergency_version_log}" \
     --argjson emergency_fail_safe_active "${emergency_fail_safe_log}" \
-    --arg repos_changed "${repos_changed}" \
+    --arg repos_fingerprint "${repos_fingerprint}" \
     '{
       timestamp: $timestamp,
       total_repos_scanned: $total_repos_scanned,
@@ -246,7 +246,7 @@ main() {
       emergency_found: $emergency_found,
       emergency_version: $emergency_version,
       emergency_fail_safe_active: $emergency_fail_safe_active,
-      repos_changed: $repos_changed
+      repos_fingerprint: $repos_fingerprint
     }')
 
   local existing_log="[]"
