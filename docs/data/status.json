@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-17T22:11:46Z",
+  "generated_at": "2026-03-17T23:10:43Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 54,
   "active_intelligence_repos": 17,
@@ -58,8 +58,8 @@
       "full_name": "japer-technology/github-agenticana-intelligence",
       "html_url": "https://github.com/japer-technology/github-agenticana-intelligence",
       "description": "🧠Agenticana using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-17T05:05:18Z",
-      "pushed_at": "2026-03-15T14:54:30Z",
+      "updated_at": "2026-03-17T22:16:29Z",
+      "pushed_at": "2026-03-17T22:16:24Z",
       "intelligence_folders": [
         ".github-agenticana-intelligence"
       ],
@@ -104,7 +104,7 @@
       "html_url": "https://github.com/japer-technology/github-moltis-intelligence",
       "description": "🧠Moltis using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
       "updated_at": "2026-03-17T22:08:17Z",
-      "pushed_at": "2026-03-17T22:08:13Z",
+      "pushed_at": "2026-03-17T22:59:49Z",
       "intelligence_folders": [
         ".github-moltis-intelligence"
       ],
@@ -118,8 +118,8 @@
       "full_name": "japer-technology/github-nanoclaw-intelligence",
       "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence",
       "description": "🧠NanoClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-17T04:47:22Z",
-      "pushed_at": "2026-03-17T22:08:32Z",
+      "updated_at": "2026-03-17T22:13:03Z",
+      "pushed_at": "2026-03-17T22:12:57Z",
       "intelligence_folders": [
         ".github-nanoclaw-intelligence"
       ],
@@ -133,8 +133,8 @@
       "full_name": "japer-technology/github-openclaw-intelligence",
       "html_url": "https://github.com/japer-technology/github-openclaw-intelligence",
       "description": "🧠OpenClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-17T05:04:54Z",
-      "pushed_at": "2026-03-17T22:06:59Z",
+      "updated_at": "2026-03-17T22:14:37Z",
+      "pushed_at": "2026-03-17T22:14:33Z",
       "intelligence_folders": [
         ".github-openclaw-intelligence"
       ],
@@ -149,7 +149,7 @@
       "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence",
       "description": "🧠ZeroClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
       "updated_at": "2026-03-17T21:23:08Z",
-      "pushed_at": "2026-03-17T21:23:05Z",
+      "pushed_at": "2026-03-17T23:09:38Z",
       "intelligence_folders": [
         ".github-zeroclaw-intelligence"
       ],
@@ -164,7 +164,7 @@
       "html_url": "https://github.com/japer-technology/githubification",
       "description": "⚠️UNDER DEVELOPMENT",
       "updated_at": "2026-03-17T21:49:08Z",
-      "pushed_at": "2026-03-17T21:49:03Z",
+      "pushed_at": "2026-03-17T23:06:42Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
