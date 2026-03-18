@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-18T00:26:33Z",
+  "generated_at": "2026-03-18T01:35:56Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 54,
   "active_intelligence_repos": 17,
@@ -36,7 +36,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-17T02:42:30Z",
+        "html_url": "https://github.com/japer-technology/an-overview/actions/runs/23175934057",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
     },
     {
       "name": "developer-japer-io",
@@ -51,7 +58,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-15T12:26:07Z",
+        "html_url": "https://github.com/japer-technology/developer-japer-io/actions/runs/23110333324",
+        "workflow_name": "pages build and deployment"
+      }
     },
     {
       "name": "github-agenticana-intelligence",
@@ -66,22 +80,36 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-agenticana-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-17T23:39:03Z",
+        "html_url": "https://github.com/japer-technology/github-agenticana-intelligence/actions/runs/23221599684",
+        "workflow_name": "github-agenticana-intelligence-agent"
+      }
     },
     {
       "name": "github-maximum-intelligence",
       "full_name": "japer-technology/github-maximum-intelligence",
       "html_url": "https://github.com/japer-technology/github-maximum-intelligence",
       "description": "🧠Pi Mono with Enhancements using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-18T00:17:38Z",
-      "pushed_at": "2026-03-18T00:17:34Z",
+      "updated_at": "2026-03-18T01:02:57Z",
+      "pushed_at": "2026-03-18T01:02:52Z",
       "intelligence_folders": [
         ".github-maximum-intelligence"
       ],
       "workflow_count": 1,
       "workflow_files": [
         "github-maximum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-18T01:02:55Z",
+        "html_url": "https://github.com/japer-technology/github-maximum-intelligence/actions/runs/23223986542",
+        "workflow_name": "github-maximum-intelligence-agent"
+      }
     },
     {
       "name": "github-minimum-intelligence",
@@ -96,7 +124,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-17T23:19:31Z",
+        "html_url": "https://github.com/japer-technology/github-minimum-intelligence/actions/runs/23221016988",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
     },
     {
       "name": "github-moltis-intelligence",
@@ -111,7 +146,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-moltis-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "skipped",
+        "run_started_at": "2026-03-17T23:17:39Z",
+        "html_url": "https://github.com/japer-technology/github-moltis-intelligence/actions/runs/23220961661",
+        "workflow_name": "github-moltis-intelligence-agent"
+      }
     },
     {
       "name": "github-nanoclaw-intelligence",
@@ -126,7 +168,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-nanoclaw-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "skipped",
+        "run_started_at": "2026-03-18T00:06:18Z",
+        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23222388341",
+        "workflow_name": "github-nanoclaw-intelligence-agent"
+      }
     },
     {
       "name": "github-openclaw-intelligence",
@@ -141,7 +190,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-openclaw-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "skipped",
+        "run_started_at": "2026-03-17T23:39:26Z",
+        "html_url": "https://github.com/japer-technology/github-openclaw-intelligence/actions/runs/23221610588",
+        "workflow_name": "github-openclaw-intelligence-agent"
+      }
     },
     {
       "name": "github-zeroclaw-intelligence",
@@ -156,7 +212,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-zeroclaw-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "skipped",
+        "run_started_at": "2026-03-17T23:18:43Z",
+        "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence/actions/runs/23220993678",
+        "workflow_name": "github-zeroclaw-intelligence-agent"
+      }
     },
     {
       "name": "githubification",
@@ -171,7 +234,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-17T23:01:47Z",
+        "html_url": "https://github.com/japer-technology/githubification/actions/runs/23220457773",
+        "workflow_name": "Running Copilot coding agent"
+      }
     },
     {
       "name": "gmi-anthropic-opus-4-6",
@@ -186,7 +256,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-13T23:28:13Z",
+        "html_url": "https://github.com/japer-technology/gmi-anthropic-opus-4-6/actions/runs/23074642513",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
     },
     {
       "name": "gmi-google-gemini-2-5-pro",
@@ -201,7 +278,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-16T00:00:42Z",
+        "html_url": "https://github.com/japer-technology/gmi-google-gemini-2-5-pro/actions/runs/23122382462",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
     },
     {
       "name": "gmi-openai-gpt-5-4",
@@ -216,7 +300,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-13T23:28:35Z",
+        "html_url": "https://github.com/japer-technology/gmi-openai-gpt-5-4/actions/runs/23074652634",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
     },
     {
       "name": "gmi-openrouter-minimax-m2-5",
@@ -231,7 +322,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-13T01:20:10Z",
+        "html_url": "https://github.com/japer-technology/gmi-openrouter-minimax-m2-5/actions/runs/23031811393",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
     },
     {
       "name": "gmi-openrouter-stepfun-step-3-5-flash-free",
@@ -246,7 +344,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-17T09:58:40Z",
+        "html_url": "https://github.com/japer-technology/gmi-openrouter-stepfun-step-3-5-flash-free/actions/runs/23188578481",
+        "workflow_name": "Running Copilot coding agent"
+      }
     },
     {
       "name": "gmi-xai-grok-4-2-reasoning",
@@ -261,7 +366,14 @@
       "workflow_count": 1,
       "workflow_files": [
         "github-minimum-intelligence-agent.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-13T23:28:54Z",
+        "html_url": "https://github.com/japer-technology/gmi-xai-grok-4-2-reasoning/actions/runs/23074660046",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
     },
     {
       "name": "japer-technology.github.io",
@@ -277,7 +389,14 @@
       "workflow_files": [
         "github-minimum-intelligence-agent.yml",
         "update-docs.yml"
-      ]
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-18T00:25:32Z",
+        "html_url": "https://github.com/japer-technology/japer-technology.github.io/actions/runs/23222947378",
+        "workflow_name": "pages build and deployment"
+      }
     }
   ]
 }
