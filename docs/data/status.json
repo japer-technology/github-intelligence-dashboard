@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-18T05:32:39Z",
+  "generated_at": "2026-03-18T06:26:14Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 54,
   "active_intelligence_repos": 17,
@@ -138,8 +138,8 @@
       "full_name": "japer-technology/github-moltis-intelligence",
       "html_url": "https://github.com/japer-technology/github-moltis-intelligence",
       "description": "🧠Moltis using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-18T00:21:47Z",
-      "pushed_at": "2026-03-18T01:45:12Z",
+      "updated_at": "2026-03-18T06:09:46Z",
+      "pushed_at": "2026-03-18T06:16:21Z",
       "intelligence_folders": [
         ".github-moltis-intelligence"
       ],
@@ -149,10 +149,10 @@
       ],
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "success",
-        "run_started_at": "2026-03-18T01:42:18Z",
-        "html_url": "https://github.com/japer-technology/github-moltis-intelligence/actions/runs/23225061571",
-        "workflow_name": "Running Copilot coding agent"
+        "conclusion": "skipped",
+        "run_started_at": "2026-03-18T06:09:44Z",
+        "html_url": "https://github.com/japer-technology/github-moltis-intelligence/actions/runs/23231616074",
+        "workflow_name": "github-moltis-intelligence-agent"
       }
     },
     {
@@ -172,8 +172,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "skipped",
-        "run_started_at": "2026-03-18T00:06:18Z",
-        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23222388341",
+        "run_started_at": "2026-03-18T06:18:02Z",
+        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23231833685",
         "workflow_name": "github-nanoclaw-intelligence-agent"
       }
     },
@@ -182,8 +182,8 @@
       "full_name": "japer-technology/github-openclaw-intelligence",
       "html_url": "https://github.com/japer-technology/github-openclaw-intelligence",
       "description": "🧠OpenClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-17T23:39:26Z",
-      "pushed_at": "2026-03-18T01:53:20Z",
+      "updated_at": "2026-03-18T05:56:39Z",
+      "pushed_at": "2026-03-18T05:56:35Z",
       "intelligence_folders": [
         ".github-openclaw-intelligence"
       ],
@@ -193,10 +193,10 @@
       ],
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "success",
-        "run_started_at": "2026-03-18T01:45:58Z",
-        "html_url": "https://github.com/japer-technology/github-openclaw-intelligence/actions/runs/23225157748",
-        "workflow_name": "Running Copilot coding agent"
+        "conclusion": "skipped",
+        "run_started_at": "2026-03-18T05:56:37Z",
+        "html_url": "https://github.com/japer-technology/github-openclaw-intelligence/actions/runs/23231269557",
+        "workflow_name": "github-openclaw-intelligence-agent"
       }
     },
     {
@@ -204,8 +204,8 @@
       "full_name": "japer-technology/github-zeroclaw-intelligence",
       "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence",
       "description": "🧠ZeroClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-17T23:18:44Z",
-      "pushed_at": "2026-03-17T23:18:39Z",
+      "updated_at": "2026-03-18T06:15:59Z",
+      "pushed_at": "2026-03-18T06:15:55Z",
       "intelligence_folders": [
         ".github-zeroclaw-intelligence"
       ],
@@ -216,8 +216,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "skipped",
-        "run_started_at": "2026-03-17T23:18:43Z",
-        "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence/actions/runs/23220993678",
+        "run_started_at": "2026-03-18T06:15:57Z",
+        "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence/actions/runs/23231780985",
         "workflow_name": "github-zeroclaw-intelligence-agent"
       }
     },
