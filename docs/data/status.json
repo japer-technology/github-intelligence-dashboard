@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-18T10:20:58Z",
+  "generated_at": "2026-03-18T11:19:30Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 55,
   "active_intelligence_repos": 17,
@@ -19,8 +19,8 @@
       "github-intelligence-emergency-trigger-disable.yml",
       "github-intelligence-emergency-trigger-kill.yml"
     ],
-    "pushed_at": "2026-03-17T21:42:47Z",
-    "updated_at": "2026-03-17T21:42:51Z"
+    "pushed_at": "2026-03-18T10:27:26Z",
+    "updated_at": "2026-03-18T10:27:31Z"
   },
   "repos": [
     {
