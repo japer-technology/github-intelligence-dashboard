@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-18T22:10:20Z",
+  "generated_at": "2026-03-18T23:09:54Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 55,
   "active_intelligence_repos": 17,
@@ -28,8 +28,8 @@
       "full_name": "japer-technology/an-overview",
       "html_url": "https://github.com/japer-technology/an-overview",
       "description": "🛠️JAPER Technology's Public Repositories",
-      "updated_at": "2026-03-17T02:42:31Z",
-      "pushed_at": "2026-03-17T02:42:28Z",
+      "updated_at": "2026-03-18T22:41:35Z",
+      "pushed_at": "2026-03-18T22:41:31Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
@@ -40,8 +40,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-17T02:42:30Z",
-        "html_url": "https://github.com/japer-technology/an-overview/actions/runs/23175934057",
+        "run_started_at": "2026-03-18T22:41:33Z",
+        "html_url": "https://github.com/japer-technology/an-overview/actions/runs/23270631106",
         "workflow_name": "github-minimum-intelligence-agent"
       }
     },
@@ -138,8 +138,8 @@
       "full_name": "japer-technology/github-moltis-intelligence",
       "html_url": "https://github.com/japer-technology/github-moltis-intelligence",
       "description": "🧠Moltis using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-18T07:08:53Z",
-      "pushed_at": "2026-03-18T07:08:49Z",
+      "updated_at": "2026-03-18T22:54:11Z",
+      "pushed_at": "2026-03-18T22:54:05Z",
       "intelligence_folders": [
         ".github-moltis-intelligence"
       ],
@@ -150,8 +150,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "skipped",
-        "run_started_at": "2026-03-18T07:08:34Z",
-        "html_url": "https://github.com/japer-technology/github-moltis-intelligence/actions/runs/23233210442",
+        "run_started_at": "2026-03-18T22:54:09Z",
+        "html_url": "https://github.com/japer-technology/github-moltis-intelligence/actions/runs/23271046884",
         "workflow_name": "github-moltis-intelligence-agent"
       }
     },
@@ -182,8 +182,8 @@
       "full_name": "japer-technology/github-openclaw-intelligence",
       "html_url": "https://github.com/japer-technology/github-openclaw-intelligence",
       "description": "🧠OpenClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-18T05:56:39Z",
-      "pushed_at": "2026-03-18T05:56:35Z",
+      "updated_at": "2026-03-18T22:59:42Z",
+      "pushed_at": "2026-03-18T22:59:39Z",
       "intelligence_folders": [
         ".github-openclaw-intelligence"
       ],
@@ -204,8 +204,8 @@
       "full_name": "japer-technology/github-zeroclaw-intelligence",
       "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence",
       "description": "🧠ZeroClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-18T07:27:03Z",
-      "pushed_at": "2026-03-18T07:26:58Z",
+      "updated_at": "2026-03-18T22:45:02Z",
+      "pushed_at": "2026-03-18T22:58:16Z",
       "intelligence_folders": [
         ".github-zeroclaw-intelligence"
       ],
@@ -215,10 +215,10 @@
       ],
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "skipped",
-        "run_started_at": "2026-03-18T07:27:01Z",
-        "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence/actions/runs/23233756890",
-        "workflow_name": "github-zeroclaw-intelligence-agent"
+        "conclusion": "success",
+        "run_started_at": "2026-03-18T22:56:17Z",
+        "html_url": "https://github.com/japer-technology/github-zeroclaw-intelligence/actions/runs/23271114992",
+        "workflow_name": "Running Copilot coding agent"
       }
     },
     {
