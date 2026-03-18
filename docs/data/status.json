@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-18T01:35:56Z",
+  "generated_at": "2026-03-18T03:04:58Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 54,
   "active_intelligence_repos": 17,
@@ -139,7 +139,7 @@
       "html_url": "https://github.com/japer-technology/github-moltis-intelligence",
       "description": "🧠Moltis using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
       "updated_at": "2026-03-18T00:21:47Z",
-      "pushed_at": "2026-03-18T00:21:43Z",
+      "pushed_at": "2026-03-18T01:45:12Z",
       "intelligence_folders": [
         ".github-moltis-intelligence"
       ],
@@ -149,10 +149,10 @@
       ],
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "skipped",
-        "run_started_at": "2026-03-17T23:17:39Z",
-        "html_url": "https://github.com/japer-technology/github-moltis-intelligence/actions/runs/23220961661",
-        "workflow_name": "github-moltis-intelligence-agent"
+        "conclusion": "success",
+        "run_started_at": "2026-03-18T01:42:18Z",
+        "html_url": "https://github.com/japer-technology/github-moltis-intelligence/actions/runs/23225061571",
+        "workflow_name": "Running Copilot coding agent"
       }
     },
     {
@@ -183,7 +183,7 @@
       "html_url": "https://github.com/japer-technology/github-openclaw-intelligence",
       "description": "🧠OpenClaw using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
       "updated_at": "2026-03-17T23:39:26Z",
-      "pushed_at": "2026-03-17T23:39:22Z",
+      "pushed_at": "2026-03-18T01:53:20Z",
       "intelligence_folders": [
         ".github-openclaw-intelligence"
       ],
@@ -193,10 +193,10 @@
       ],
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "skipped",
-        "run_started_at": "2026-03-17T23:39:26Z",
-        "html_url": "https://github.com/japer-technology/github-openclaw-intelligence/actions/runs/23221610588",
-        "workflow_name": "github-openclaw-intelligence-agent"
+        "conclusion": "success",
+        "run_started_at": "2026-03-18T01:45:58Z",
+        "html_url": "https://github.com/japer-technology/github-openclaw-intelligence/actions/runs/23225157748",
+        "workflow_name": "Running Copilot coding agent"
       }
     },
     {
