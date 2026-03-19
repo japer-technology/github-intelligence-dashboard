@@ -1,8 +1,8 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-19T03:05:08Z",
+  "generated_at": "2026-03-19T04:41:28Z",
   "published_scope": "public repositories only",
-  "total_public_repos_scanned": 56,
+  "total_public_repos_scanned": 57,
   "active_intelligence_repos": 18,
   "emergency": {
     "found": true,
@@ -28,8 +28,8 @@
       "full_name": "japer-technology/an-overview",
       "html_url": "https://github.com/japer-technology/an-overview",
       "description": "🗺️ JAPER Technology's GitHub",
-      "updated_at": "2026-03-19T01:27:23Z",
-      "pushed_at": "2026-03-19T01:25:17Z",
+      "updated_at": "2026-03-19T03:10:36Z",
+      "pushed_at": "2026-03-19T03:10:33Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
@@ -40,8 +40,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-19T01:25:19Z",
-        "html_url": "https://github.com/japer-technology/an-overview/actions/runs/23275292586",
+        "run_started_at": "2026-03-19T03:10:36Z",
+        "html_url": "https://github.com/japer-technology/an-overview/actions/runs/23278010817",
         "workflow_name": "github-minimum-intelligence-agent"
       }
     },
@@ -94,8 +94,8 @@
       "full_name": "japer-technology/github-intelligence-overwatch",
       "html_url": "https://github.com/japer-technology/github-intelligence-overwatch",
       "description": "🧠GitHub Intelligence 🎯 Overwatch ⚠️UNDER DEVELOPMENT",
-      "updated_at": "2026-03-19T02:39:40Z",
-      "pushed_at": "2026-03-19T02:36:51Z",
+      "updated_at": "2026-03-19T03:23:51Z",
+      "pushed_at": "2026-03-19T03:23:48Z",
       "intelligence_folders": [
         ".github-openclaw-intelligence"
       ],
@@ -106,8 +106,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-19T02:36:53Z",
-        "html_url": "https://github.com/japer-technology/github-intelligence-overwatch/actions/runs/23277127414",
+        "run_started_at": "2026-03-19T03:23:50Z",
+        "html_url": "https://github.com/japer-technology/github-intelligence-overwatch/actions/runs/23278328489",
         "workflow_name": "github-openclaw-intelligence-agent"
       }
     },
