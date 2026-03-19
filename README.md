@@ -1,4 +1,4 @@
-# github-intelligence-dashboard
+# 🖥️ github-intelligence-dashboard
 
 Providing an account-wide GitHub Pages dashboard for active repositories that contain `.github-*-intelligence` or `.github-*-intelligences` folders.
 
