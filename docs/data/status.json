@@ -1,9 +1,9 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-20T05:25:53Z",
+  "generated_at": "2026-03-20T06:20:41Z",
   "published_scope": "public repositories only",
-  "total_public_repos_scanned": 57,
-  "active_intelligence_repos": 18,
+  "total_public_repos_scanned": 58,
+  "active_intelligence_repos": 19,
   "emergency": {
     "found": true,
     "html_url": "https://github.com/japer-technology/github-intelligence-emergency",
@@ -178,6 +178,30 @@
       }
     },
     {
+      "name": "github-n8n-intelligence",
+      "full_name": "japer-technology/github-n8n-intelligence",
+      "html_url": "https://github.com/japer-technology/github-n8n-intelligence",
+      "description": "🧠N8N using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow. ⚠️UNDER DEVELOPMENT",
+      "updated_at": "2026-03-20T05:43:38Z",
+      "pushed_at": "2026-03-20T03:19:04Z",
+      "intelligence_folders": [
+        ".github-n8n-intelligence"
+      ],
+      "workflow_count": 3,
+      "workflow_files": [
+        "fetch-n8n-templates.yml",
+        "github-n8n-intelligence-agent.yml",
+        "n8n-execute.yml"
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "failure",
+        "run_started_at": "2026-03-20T03:19:12Z",
+        "html_url": "https://github.com/japer-technology/github-n8n-intelligence/actions/runs/23327614482",
+        "workflow_name": "Fetch n8n Workflow Templates"
+      }
+    },
+    {
       "name": "github-nanoclaw-intelligence",
       "full_name": "japer-technology/github-nanoclaw-intelligence",
       "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence",
@@ -194,8 +218,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "skipped",
-        "run_started_at": "2026-03-20T00:05:27Z",
-        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23322922715",
+        "run_started_at": "2026-03-20T06:13:01Z",
+        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23331403045",
         "workflow_name": "github-nanoclaw-intelligence-agent"
       }
     },
