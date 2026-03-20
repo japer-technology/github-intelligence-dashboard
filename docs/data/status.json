@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-20T11:12:39Z",
+  "generated_at": "2026-03-20T12:12:47Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 59,
   "active_intelligence_repos": 20,
@@ -218,8 +218,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "skipped",
-        "run_started_at": "2026-03-20T06:13:01Z",
-        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23331403045",
+        "run_started_at": "2026-03-20T12:04:27Z",
+        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23342013904",
         "workflow_name": "github-nanoclaw-intelligence-agent"
       }
     },
@@ -426,20 +426,24 @@
       "full_name": "japer-technology/gmi-youtube",
       "html_url": "https://github.com/japer-technology/gmi-youtube",
       "description": "🧠GMI and YouTube using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow. ⚠️UNDER DEVELOPMENT",
-      "updated_at": "2026-03-20T11:11:21Z",
-      "pushed_at": "2026-03-20T11:11:16Z",
+      "updated_at": "2026-03-20T12:12:12Z",
+      "pushed_at": "2026-03-20T12:12:08Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
-      "workflow_count": 1,
+      "workflow_count": 5,
       "workflow_files": [
-        "github-minimum-intelligence-agent.yml"
+        "github-minimum-intelligence-agent.yml",
+        "ingest.yml",
+        "publish.yml",
+        "scheduled-ingest.yml",
+        "validate.yml"
       ],
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-20T11:11:19Z",
-        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23340275691",
+        "run_started_at": "2026-03-20T12:12:11Z",
+        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23342272534",
         "workflow_name": "github-minimum-intelligence-agent"
       }
     },
