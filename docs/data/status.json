@@ -1,9 +1,9 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-20T08:13:59Z",
+  "generated_at": "2026-03-20T09:15:09Z",
   "published_scope": "public repositories only",
-  "total_public_repos_scanned": 58,
-  "active_intelligence_repos": 19,
+  "total_public_repos_scanned": 59,
+  "active_intelligence_repos": 20,
   "emergency": {
     "found": true,
     "html_url": "https://github.com/japer-technology/github-intelligence-emergency",
@@ -418,6 +418,28 @@
         "conclusion": "success",
         "run_started_at": "2026-03-13T23:28:54Z",
         "html_url": "https://github.com/japer-technology/gmi-xai-grok-4-2-reasoning/actions/runs/23074660046",
+        "workflow_name": "github-minimum-intelligence-agent"
+      }
+    },
+    {
+      "name": "gmi-youtube",
+      "full_name": "japer-technology/gmi-youtube",
+      "html_url": "https://github.com/japer-technology/gmi-youtube",
+      "description": "🧠GMI and YouTube using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow. ⚠️UNDER DEVELOPMENT",
+      "updated_at": "2026-03-20T09:10:51Z",
+      "pushed_at": "2026-03-20T09:10:47Z",
+      "intelligence_folders": [
+        ".github-minimum-intelligence"
+      ],
+      "workflow_count": 1,
+      "workflow_files": [
+        "github-minimum-intelligence-agent.yml"
+      ],
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "run_started_at": "2026-03-20T09:10:50Z",
+        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23336243710",
         "workflow_name": "github-minimum-intelligence-agent"
       }
     },
