@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2026-03-18T14:32:08Z",
-    "total_repos_scanned": 55,
-    "active_intelligence_repos": 17,
-    "emergency_found": true,
-    "emergency_version": "1.0.0",
-    "emergency_fail_safe_active": true,
-    "repos_fingerprint": "81cff61234b384da1a644da38d17f792"
-  },
-  {
     "timestamp": "2026-03-18T15:30:15Z",
     "total_repos_scanned": 55,
     "active_intelligence_repos": 17,
@@ -442,6 +433,15 @@
   },
   {
     "timestamp": "2026-03-20T17:16:28Z",
+    "total_repos_scanned": 59,
+    "active_intelligence_repos": 20,
+    "emergency_found": true,
+    "emergency_version": "1.0.0",
+    "emergency_fail_safe_active": true,
+    "repos_fingerprint": "30791f1f9fc06e8cd83fd8b74001719f"
+  },
+  {
+    "timestamp": "2026-03-20T18:14:26Z",
     "total_repos_scanned": 59,
     "active_intelligence_repos": 20,
     "emergency_found": true,
