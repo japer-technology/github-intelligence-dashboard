@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-21T12:09:22Z",
+  "generated_at": "2026-03-21T13:19:35Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 59,
   "active_intelligence_repos": 20,
@@ -195,10 +195,10 @@
       ],
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "success",
-        "run_started_at": "2026-03-21T08:07:08Z",
-        "html_url": "https://github.com/japer-technology/github-n8n-intelligence/actions/runs/23375430825",
-        "workflow_name": "Fetch n8n Workflow Templates"
+        "conclusion": "failure",
+        "run_started_at": "2026-03-21T12:09:49Z",
+        "html_url": "https://github.com/japer-technology/github-n8n-intelligence/actions/runs/23379370805",
+        "workflow_name": "n8n Workflow Executor"
       }
     },
     {
