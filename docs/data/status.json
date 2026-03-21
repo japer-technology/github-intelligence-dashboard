@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-21T07:15:15Z",
+  "generated_at": "2026-03-21T08:08:23Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 59,
   "active_intelligence_repos": 20,
@@ -182,8 +182,8 @@
       "full_name": "japer-technology/github-n8n-intelligence",
       "html_url": "https://github.com/japer-technology/github-n8n-intelligence",
       "description": "🧠N8N using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow. ⚠️UNDER DEVELOPMENT",
-      "updated_at": "2026-03-20T12:20:42Z",
-      "pushed_at": "2026-03-20T12:20:37Z",
+      "updated_at": "2026-03-21T08:06:05Z",
+      "pushed_at": "2026-03-21T08:06:01Z",
       "intelligence_folders": [
         ".github-n8n-intelligence"
       ],
@@ -195,10 +195,10 @@
       ],
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "failure",
-        "run_started_at": "2026-03-21T06:15:14Z",
-        "html_url": "https://github.com/japer-technology/github-n8n-intelligence/actions/runs/23373682003",
-        "workflow_name": "n8n Workflow Executor"
+        "conclusion": "success",
+        "run_started_at": "2026-03-21T08:06:04Z",
+        "html_url": "https://github.com/japer-technology/github-n8n-intelligence/actions/runs/23375412845",
+        "workflow_name": "github-n8n-intelligence-agent"
       }
     },
     {
@@ -426,8 +426,8 @@
       "full_name": "japer-technology/gmi-youtube",
       "html_url": "https://github.com/japer-technology/gmi-youtube",
       "description": "🧠GMI and YouTube using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow. ⚠️UNDER DEVELOPMENT",
-      "updated_at": "2026-03-21T06:21:05Z",
-      "pushed_at": "2026-03-21T06:21:02Z",
+      "updated_at": "2026-03-21T08:00:17Z",
+      "pushed_at": "2026-03-21T08:00:14Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
@@ -442,9 +442,9 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-21T06:20:54Z",
-        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23373772373",
-        "workflow_name": "Scheduled Ingest"
+        "run_started_at": "2026-03-21T08:00:16Z",
+        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23375314608",
+        "workflow_name": "github-minimum-intelligence-agent"
       }
     },
     {
