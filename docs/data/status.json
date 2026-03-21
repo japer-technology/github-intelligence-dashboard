@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-21T02:56:12Z",
+  "generated_at": "2026-03-21T03:47:03Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 59,
   "active_intelligence_repos": 20,
@@ -426,8 +426,8 @@
       "full_name": "japer-technology/gmi-youtube",
       "html_url": "https://github.com/japer-technology/gmi-youtube",
       "description": "🧠GMI and YouTube using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow. ⚠️UNDER DEVELOPMENT",
-      "updated_at": "2026-03-21T02:41:43Z",
-      "pushed_at": "2026-03-21T02:52:33Z",
+      "updated_at": "2026-03-21T03:18:50Z",
+      "pushed_at": "2026-03-21T03:33:06Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
@@ -442,8 +442,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-21T02:43:03Z",
-        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23370329710",
+        "run_started_at": "2026-03-21T03:25:51Z",
+        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23371010548",
         "workflow_name": "Running Copilot coding agent"
       }
     },
