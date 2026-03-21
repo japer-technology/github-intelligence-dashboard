@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-21T03:47:03Z",
+  "generated_at": "2026-03-21T04:33:27Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 59,
   "active_intelligence_repos": 20,
@@ -138,8 +138,8 @@
       "full_name": "japer-technology/github-minimum-intelligence",
       "html_url": "https://github.com/japer-technology/github-minimum-intelligence",
       "description": "🧠Pi Mono using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow.",
-      "updated_at": "2026-03-17T23:19:33Z",
-      "pushed_at": "2026-03-17T23:19:29Z",
+      "updated_at": "2026-03-21T04:28:14Z",
+      "pushed_at": "2026-03-21T04:28:11Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
@@ -426,8 +426,8 @@
       "full_name": "japer-technology/gmi-youtube",
       "html_url": "https://github.com/japer-technology/gmi-youtube",
       "description": "🧠GMI and YouTube using GitHub as Infrastructure. A repository-local AI framework that plugs into a developer’s existing workflow. ⚠️UNDER DEVELOPMENT",
-      "updated_at": "2026-03-21T03:18:50Z",
-      "pushed_at": "2026-03-21T03:33:06Z",
+      "updated_at": "2026-03-21T04:21:12Z",
+      "pushed_at": "2026-03-21T04:21:07Z",
       "intelligence_folders": [
         ".github-minimum-intelligence"
       ],
@@ -442,9 +442,9 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-21T03:25:51Z",
-        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23371010548",
-        "workflow_name": "Running Copilot coding agent"
+        "run_started_at": "2026-03-21T04:21:11Z",
+        "html_url": "https://github.com/japer-technology/gmi-youtube/actions/runs/23371886061",
+        "workflow_name": "github-minimum-intelligence-agent"
       }
     },
     {
