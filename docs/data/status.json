@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-21T00:23:36Z",
+  "generated_at": "2026-03-21T01:35:17Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 59,
   "active_intelligence_repos": 20,
@@ -196,8 +196,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "failure",
-        "run_started_at": "2026-03-20T18:15:04Z",
-        "html_url": "https://github.com/japer-technology/github-n8n-intelligence/actions/runs/23356562416",
+        "run_started_at": "2026-03-21T00:26:09Z",
+        "html_url": "https://github.com/japer-technology/github-n8n-intelligence/actions/runs/23367902165",
         "workflow_name": "n8n Workflow Executor"
       }
     },
@@ -465,9 +465,9 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "run_started_at": "2026-03-21T00:22:25Z",
-        "html_url": "https://github.com/japer-technology/japer-technology.github.io/actions/runs/23367829080",
-        "workflow_name": "Update API docs"
+        "run_started_at": "2026-03-21T00:22:37Z",
+        "html_url": "https://github.com/japer-technology/japer-technology.github.io/actions/runs/23367832947",
+        "workflow_name": "pages build and deployment"
       }
     }
   ]
