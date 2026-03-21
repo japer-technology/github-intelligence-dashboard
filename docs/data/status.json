@@ -1,6 +1,6 @@
 {
   "owner": "japer-technology",
-  "generated_at": "2026-03-21T11:06:36Z",
+  "generated_at": "2026-03-21T12:09:22Z",
   "published_scope": "public repositories only",
   "total_public_repos_scanned": 59,
   "active_intelligence_repos": 20,
@@ -218,8 +218,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "skipped",
-        "run_started_at": "2026-03-21T06:07:48Z",
-        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23373566022",
+        "run_started_at": "2026-03-21T12:01:36Z",
+        "html_url": "https://github.com/japer-technology/github-nanoclaw-intelligence/actions/runs/23379223504",
         "workflow_name": "github-nanoclaw-intelligence-agent"
       }
     },
